@@ -16,13 +16,15 @@
       <li>Start typing another <span class="code">this</span> with a dot</li>
       <li>You have <span class="code">vue-router</span> as dependency right?</li>
       <li>So don't miss <span class="code">this.$router</span> with a dot </li>
-      <li>Last Pro Tip: Put a <span class="code">//@ts-check</span> on the top of your script block</li>
-      <li>You own me a <button @click="tweet">tweet</button></li>
+      <li>Final Pro Tip: Put <span class="code">//@ts-check</span> on the top of your script block, and try stupid things like <span class="code">this.msg = 42</span></li>
+      <li>You own <a href="https://github.com/octref">@octref</a> a <button @click="tweet">tweet</button></li>
     </ul>
   </div>
 </template>
 
 <script>
+//@ts-check
+
 export default {
   name: 'hello',
   data () {
@@ -32,7 +34,7 @@ export default {
   },
   computed: {
     encodedTweetUri () {
-      const hypedTweet = this.msg + '!'.repeat(this.msg.length) + ' https://github.com/vuejs/vetur'
+      const hypedTweet = this.msg + '!'.repeat(this.msg.length) + ' https://github.com/octref/veturpack/tree/new-types'
       return encodeURI(`https://twitter.com/intent/tweet?text=${hypedTweet}`)
     }
   },
