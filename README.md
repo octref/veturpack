@@ -1,21 +1,20 @@
-# veturpack
+# Veturpack for Vue New Types
 
-> Veturpack based on webpack template for trying Vue 2.5 types
+Veturpack based on webpack template for trying Vue 2.5 types.
 
-## Build Setup
+## What?
 
-``` bash
-# install dependencies
-npm install
+In 2.5, Vue will include improved type declaration: https://github.com/vuejs/vue/pull/6391
 
-# serve with hot reload at localhost:8080
-npm run dev
+This repo serves as a playground for trying the improved editing experience using [Vetur](https://github.com/vuejs/vetur).
 
-# build for production with minification
-npm run build
+## Usage
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+- `git clone -b new-types https://github.com/octref/veturpack.git`
+- Open the project in [VSCode](https://code.visualstudio.com/).
+- Install [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur).
+- `yarn`
+- `yarn dev`
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## License
+MIT
