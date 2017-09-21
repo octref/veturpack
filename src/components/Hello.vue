@@ -23,8 +23,6 @@
 </template>
 
 <script>
-//@ts-check
-
 export default {
   name: 'hello',
   data () {
