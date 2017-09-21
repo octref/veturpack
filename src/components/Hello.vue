@@ -32,7 +32,7 @@ export default {
   },
   computed: {
     encodedTweetUri () {
-      const hypedTweet = this.msg + '!'.repeat(this.msg.length) + ' https://github.com/octref/veturpack/tree/new-types'
+      const hypedTweet = this.msg + ' https://github.com/octref/veturpack/tree/new-types'
       return encodeURI(`https://twitter.com/intent/tweet?text=${hypedTweet}`)
     }
   },
