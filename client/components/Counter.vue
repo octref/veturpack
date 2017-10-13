@@ -1,14 +1,15 @@
 <template>
   <div class="counter-wrapper">
+    <div>{{ msg }}</div>
+    <div>
+      <img src="https://vuejs.org/images/logo.png" width="200" height="200" />
+    </div>
     <div class="counter">
       {{ count }}
     </div>
     <button @click="$store.commit('INCREMENT')">Increment</button>
     <button @click="$store.commit('DECREMENT')">Decrement</button>
     <button @click="$store.dispatch('incrementAsync')">Increment Async</button>
-    <div>
-      <img src="https://vuejs.org/images/logo.png" width="200" height="200" />
-    </div>
   </div>
 </template>
 
@@ -17,6 +18,11 @@
 import * as _ from 'lodash'
 
 export default {
+  data () {
+    return {
+      msg: 'Vetur means "Winter" in icelandic.'
+    }
+  },
   computed: {
     count () {
       const a = _.add(1, 2);
@@ -32,8 +38,12 @@ export default {
 </script>
 
 <style lang="scss">
+.counter-wrapper > * {
+  margin-bottom: 50px;
+}
 .counter {
-  margin: 100px auto;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 3px;
   width: 200px;
   height: 200px;

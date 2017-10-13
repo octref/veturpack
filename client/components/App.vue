@@ -24,4 +24,7 @@ body {
   padding: 3px 5px;
   border-radius: 2px;
 }
+#app {
+  padding-top: 100px;
+}
 </style>
