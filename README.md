@@ -1,3 +1,10 @@
+# Deprecated. Use master branch instead.
+
+Since Vue 2.5 release, the new TypeScript type definition is distributed with Vue by default.  
+Veturpack master branch has been updated to use Vue 2.5+.
+
+---
+
 # Veturpack for Vue New Types
 
 Veturpack based on webpack template for trying Vue 2.5 types.
