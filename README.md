@@ -25,4 +25,4 @@ $ yarn dev
 
 ## License
 
-MIT
+MIT © [Pine Wu](https://github.com/octref)
