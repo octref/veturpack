@@ -6,15 +6,44 @@
   "scripts": {
     "build": "webpack --config build/webpack.prod.js",
     "dev": "node build/server.js",
-    "lint": "xo **/client/**/*.{vue,js} !node_modules/**"
+    "lint": "xo **/{client,test}/**/*.{vue,js} !node_modules/**",
+    "test": "testcafe all test/e2e/index.js --app \"npm run dev\" --app-init-delay 10000"
   },
   "author": "Pine Wu <octref@gmail.com>",
   "license": "MIT",
   "xo": {
-    "extends": "./.eslintrc",
+    "extends": ".eslintrc",
     "esnext": true,
+    "extensions": [
+      "js",
+      "jsx",
+      "vue"
+    ],
     "envs": [
       "browser"
+    ],
+    "overrides": [
+      {
+        "files": "**/*.vue",
+        "rules": {
+          "unicorn/filename-case": [
+            "error",
+            {
+              "case": "pascalCase"
+            }
+          ]
+        }
+      },
+      {
+        "files": "test/**/*.js",
+        "parserOptions": {
+          "ecmaVersion": 8
+        },
+        "extends": [
+          "./.eslintrc",
+          "plugin:testcafe/recommended"
+        ]
+      }
     ]
   },
   "babel": {
@@ -72,6 +101,7 @@
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
+    "testcafe": "^0.18.1",
     "vue-loader": "^13.3.0",
     "vue-template-compiler": "^2.5.2",
     "webpack": "3.7.1",
