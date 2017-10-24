@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 body {
   margin: 0;
   font-size: 2rem;
@@ -15,14 +15,13 @@ body {
                'segoe ui', arial,
                sans-serif;
 }
-
 .page {
   text-align: center;
-}
-.page code {
-  background-color: #f0f0f0;
-  padding: 3px 5px;
-  border-radius: 2px;
+  .code {
+    background-color: #f0f0f0;
+    padding: 3px 5px;
+    border-radius: 2px;
+  }
 }
 #app {
   padding-top: 100px;

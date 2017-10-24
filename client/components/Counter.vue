@@ -2,7 +2,7 @@
   <div class="counter-wrapper">
     <div>{{ msg }}</div>
     <div>
-      <img src="https://vuejs.org/images/logo.png" width="200" height="200" />
+      <img src="https://vuejs.org/images/logo.png" width="200" height="200" >
     </div>
     <div class="counter">
       {{ count }}
@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     count () {
-      const a = _.add(1, 2);
+      _.add(1, 2)
       return this.$store.state.count
     }
   },
