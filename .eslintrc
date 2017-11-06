@@ -8,6 +8,14 @@
     "import/no-unassigned-import": 0,
     "vue/html-no-self-closing": "error",
     "semi": ["error", "never"],
-    "no-console": "off"
+    "no-console": "off",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "always",
+        "asyncArrow": "always"
+      }
+    ]
   }
 }

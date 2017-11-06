@@ -14,30 +14,29 @@
 </template>
 
 <script>
-// @ts-check
 import * as _ from 'lodash'
 
 export default {
-  data () {
+  data() {
     return {
       msg: 'Vetur means "Winter" in icelandic.'
     }
   },
   computed: {
-    count () {
-      const a = _.add(1, 2);
+    count() {
       return this.$store.state.count
     }
   },
   methods: {
-    hello () {
+    hello() {
+      this.$store.state.count
       console.log('hello')
     }
   }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .counter-wrapper > * {
   margin-bottom: 50px;
 }
