@@ -17,19 +17,18 @@
 import * as _ from 'lodash'
 
 export default {
-  data() {
+  data () {
     return {
       msg: 'Vetur means "Winter" in icelandic.'
     }
   },
   computed: {
-    count() {
+    count () {
       return this.$store.state.count
     }
   },
   methods: {
-    hello() {
-      this.$store.state.count
+    hello () {
       console.log('hello')
     }
   }
