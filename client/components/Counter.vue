@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     hello () {
-      console.log('hello')
+      console.log(this.msg)
     }
   }
 }
