@@ -23,6 +23,12 @@ $ yarn dev
   - Try some jquery auto completion by typing `$.`.
 - Try some auto completion in scss.
 
+## Beyond
+
+This repo only contains minimum setup.
+
+For a more comprehensive setup, refer to https://github.com/chrisvfritz/vue-enterprise-boilerplate.
+
 ## License
 
 MIT © [Pine Wu](https://github.com/octref)
