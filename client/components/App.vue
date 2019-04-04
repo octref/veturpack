@@ -4,27 +4,15 @@
   </div>
 </template>
 
-<style>
-body {
-  margin: 0;
-  font-size: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               Ubuntu,
-               'segoe ui', arial,
-               sans-serif;
-}
+<script lang="ts">
+import Vue from 'vue'
 
-.page {
-  text-align: center;
-}
-.page code {
-  background-color: #f0f0f0;
-  padding: 3px 5px;
-  border-radius: 2px;
-}
-#app {
-  padding-top: 100px;
-}
-</style>
+import Counter from './Counter.vue'
+import * as _ from 'lodash'
+
+export default Vue.extend({
+  components: {
+    Counter
+  }
+})
+</script>
