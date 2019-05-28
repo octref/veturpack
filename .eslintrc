@@ -4,6 +4,7 @@
     "plugin:vue/recommended"
   ],
   "rules": {
+    "vue/valid-template-root": 0,
     "import/no-unresolved": 0,
     "import/no-unassigned-import": 0,
     "semi": ["error", "never"],

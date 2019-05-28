@@ -1,4 +1,5 @@
 <template>
+  <div></div>
   <div class="counter-wrapper">
     <div>{{ msg }}</div>
     <div>
