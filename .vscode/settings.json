@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "vetur.validation.template": false,
-  "prettier.eslintIntegration": true
+  "vetur.format.options.tabSize": 4,
+  "vetur.format.options.useTabs": true
 }
