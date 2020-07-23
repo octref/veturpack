@@ -14,7 +14,7 @@ A Vue project with minimal setup and dependencies for trying out [Vetur](https:/
 
 Try all features below in `Test.vue`. You can read more about these features in Vetur's documentation: https://vuejs.github.io/vetur/.
 
-- Do a emmet expansion on the html template. For example, type `div` and then tab.
+- Do an emmet expansion on the html template. For example, type `div` and then tab.
 - Complete on `<router|`. Because of the [`vue-router`](https://router.vuejs.org/) dependency, you should see [`router-link`](https://router.vuejs.org/api/#router-link). Read more about this feature in [Framework Support](https://vuejs.github.io/vetur/framework.html).
 - `yarn add element-ui`, reload the project and complete `<el`. You should see all tags from [Element UI](https://element.eleme.cn/#/en-US/component). Read more about this feature in [Framework Support](https://vuejs.github.io/vetur/framework.html).
 - Complete on `<foo`. You should see `<foo-tag>`. Read more about this feature in [Framework Support](https://vuejs.github.io/vetur/framework.html).
