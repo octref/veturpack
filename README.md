@@ -12,7 +12,7 @@ A Vue project with minimal setup and dependencies for trying out [Vetur](https:/
 
 ## Things to Try
 
-Try all features below in `Test.vue`. You can read more about these features in Vetur's documentation: https://vuejs.github.io/vetur/.
+Try all features below in `src/Test.vue`. You can read more about these features in Vetur's documentation: https://vuejs.github.io/vetur/.
 
 - Do an emmet expansion on the html template. For example, type `div` and then tab.
 - Complete on `<router|`. Because of the [`vue-router`](https://router.vuejs.org/) dependency, you should see [`router-link`](https://router.vuejs.org/api/#router-link). Read more about this feature in [Framework Support](https://vuejs.github.io/vetur/framework.html).
