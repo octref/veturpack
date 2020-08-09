@@ -1,6 +1,6 @@
 <template>
   <div>
-    <child :baz="" ::bar="1"></child>
+    <child :foo="" ::bar="1"></child>
   </div>
 </template>
 

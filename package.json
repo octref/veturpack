@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "lodash": "^4.17.19",
-    "vue": "^2.6.11",
-    "vue-router": "^3.3.4",
-    "vuex": "^3.4.0"
+    "vue": "^3.0.0-rc.5",
+    "vue-router": "^4.0.0-beta.6",
+    "vuex": "^4.0.0-beta.4"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.158",
