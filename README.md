@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/octref/veturpack)
+
 # Veturpack
 
 A Vue project with minimal setup and dependencies for trying out [Vetur](https://github.com/vuejs/vetur)'s features. Also used for creating minimal, reproducible case for Vetur bug reports.
