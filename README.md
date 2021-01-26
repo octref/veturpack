@@ -20,7 +20,7 @@ Try all features below in `src/Test.vue`. You can read more about these features
 - Complete on `<foo`. You should see `<foo-tag>`. Read more about this feature in [Framework Support](https://vuejs.github.io/vetur/framework.html).
 - Hover over any tags such as `<div>` or `<router-link>`. You'll see the tag's description.
 - Because of `"vetur.experimental.templateInterpolationService": true` in `.vscode/settings.json`, you should see an error on `{{ fo }}` in the template section. Change it to `foo` to fix the error.
-- Delete the `foo` in {{ foo }}`. Type `b`. You should see completion of `bar`.
+- Delete the `foo` in `{{ foo }}`. Type `b`. You should see completion of `bar`.
 - In script section, try `_.`. You should see all [lodash](https://lodash.com)'s methods.
 - Install another library with types, such as [jquery](https://api.jquery.com/). `yarn add -S jquery && yarn add -D @types/jquery`. After importing it with `import * as $ from 'jquery'`, you should get `$.` completions.
 - Setup [eslint-plugin-vue](https://eslint.vuejs.org/user-guide/) with a `.eslintrc`. Set `"vetur.validation.template": false` to turn off Vetur's builtin ESLint linter. You'll get ESLint warnings now.
